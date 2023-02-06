@@ -1,3 +1,5 @@
+$transition: .3s ease all;
+
 .mainDiv{
     text-align: center;
     align-items: center;
@@ -13,4 +15,9 @@ button{
     background-color: darkgray;
     padding: .8rem 1.8rem;
     border-radius: 4rem;
+    cursor: pointer;
+    transition: $transition;
+    &:hover{
+        opacity: .7;
+    }
 }
